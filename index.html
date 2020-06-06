@@ -1,33 +1,56 @@
 <!DOCTYPE html>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-li {
-    display: inline;
-}
-</style>
-
-
 <html>
-    <header>
-<ul>
-    <li><a href="https://about.google/?fg=1&utm_source=google-GB&utm_medium=referral&utm_campaign=hp-header">About</li>
-    <li><a href="https://store.google.com/GB/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-GB">Store</a></li>
-    <li style="float:right"><a href="https://www.google.co.uk/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-    <li style="float:right"><a href="https://mail.google.com/mail/u/0/?ogbl#">Gmail</li>
-    
-</ul>
-    </header>
+    <!-- <head> is Reference to CSS Style sheet-->
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Google</title>
+</head>
+
     <body>
+
+<!--header-->
+
+<div class="header">
+    <ul>
+        <li class="leftnavbar" id="About"><a href="">About</a></li>
+        <li class="leftnavbar" id="Store"><a href="">Store</a></li>
+    </ul>
+    <ul>  
+        <li class="rightnavbar" id="Images"><a href="">Images</a></li>
+        <li class="rightnavbar" id="Gmail"><a href="">Gmail</a></li>
+    </ul>
+</div>
+
+<!--header end-->
+
+<!--Logo and Searchbar-->
+        
+<div class="main">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+   <form class="mainform">
+    <div class="searchbar">
+        <input class="searchbar" type="text">
         <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">       <div>
-           </div>
-           <div>
-            <input class="searchbar" type="text" />
-            <input type="submit" value="Go">
-            </div>
-    </body>
-</html>
+        <input class="submit" type="submit" id="search" value="Google Search">
+        <input class="submit" type="submit" id="lucky" value="I'm Feeling Lucky!">
+        </div>
+    </form>
+    </div>
+</div>   
+
+<!--Logo and Searchbar end-->
+
+<!--footer-->
+
+<div class="footer">
+    <ul>
+        <li class="leftfooter" id="Advertising"><a href="">Advertising</a></li>
+        <li class="leftfooter" id="Business"><a href="">Business</a></li>
+        <li class="leftfooter" id="Works"><a href="">How Search Works</a></li>
+    </ul>
+    <ul>  
+        <li class="rightfooter" id="Settings"><a href="">Settings</a></li>
+        <li class="rightfooter" id="Terms"><a href="">Terms</a></li>
+        <li class="rightfooter" id="Privacy"><a href="">Privacy</a></li>
+    </ul>
+</div>
