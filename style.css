@@ -2,8 +2,8 @@
 
 .header {
     padding-top: 18px;
-    font-size: 12px;
-    font-family: sans-serif;
+    font-size: 13px;
+    font-family: arial, sans-serif;
 }
 
 
@@ -43,7 +43,6 @@ ul {
 li a {
     text-decoration: none;
     color: rgb(80, 78, 78);
-    font-family: sans-serif;
 }
 
 
@@ -63,36 +62,38 @@ img {
 
 .searchbar {
     width: 450px;
-    height: 45px;
+    height: 40px;
     border: 1px solid rgba(207, 207, 207, 0.795);
-    margin-bottom: 20px;
+    margin-bottom: 27px;
     border-radius: 22.5px;
     outline: none;
     padding-left: 15px;
     font-size: 15px;
-    font-family: sans-serif;
+    font-family: arial, sans-serif;
 }
 
 .submit {
-    margin-left: 0.2em;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 5px 10px 5px 10px;
-    background-color: rgb(245, 240, 240);
+    background-color: rgb(245, 245, 245);
     border: 0px;
-    outline: none;
     font-size: 15px;
     font-family: sans-serif;
-    color: rgb(112, 111, 111);
+    color: rgb(117, 118, 133);
+    border-radius: 4px;
+    padding: 10px 20px 10px 20px;
 }
 
 .searchbar:hover {
-    box-shadow: 1px 1px 1px 1px;
-    color: rgb(212, 211, 211);
-    
+    box-shadow: 0.5px 0.5px 5px 0.25px rgb(212, 211, 211);
 }
 
 .submit:hover {
-    outline: 1px solid rgb(175, 174, 174);
     cursor: pointer;
+    border: 1px solid #b1b0b0;
+    border-radius: 4px;
+    color: rgb(61, 63, 65);
 }
 
 /* footer */
@@ -105,7 +106,8 @@ img {
     padding-bottom: 10px;
     padding-top: 10px;
     background-color: rgba(155, 145, 145, 0.185);
-    font-size: 16px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
 }
 
 .leftfooter {
