@@ -1,22 +1,35 @@
+/* header */
+
 .header {
-    padding-top: 13px;
+    padding-top: 18px;
+    font-size: 12px;
+    font-family: sans-serif;
 }
+
 
 .leftnavbar {
     float: left;
+}
+
+.leftnavbar:hover {
+    text-decoration: underline;
 }
 
 .rightnavbar {
     float: right;
 }
 
+.rightnavbar:hover {
+    text-decoration: underline;
+}
+
 #About {
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
 }
 
 #Images {
-    margin-right: 10px;
+    margin-right: 15px;
     margin-left: 10px;
 }
 
@@ -24,43 +37,75 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 li a {
     text-decoration: none;
-    color: rgb(114, 107, 107);
-    font-family: 
-    
+    color: rgb(80, 78, 78);
+    font-family: sans-serif;
 }
+
+
+/* header end */
+
+/* main content */
+
 .main {
+    display: fixed;
     text-align: center;
-    margin-top: 12.4em;
+    margin-top: 11em;
 }
 
 img {
-    margin-bottom: 1em;
+    margin-bottom: 1.4em;
 }
 
 .searchbar {
-    margin-bottom: 1em;
+    width: 450px;
+    height: 45px;
+    border: 1px solid rgba(207, 207, 207, 0.795);
+    margin-bottom: 20px;
+    border-radius: 22.5px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+    font-family: sans-serif;
 }
 
-#search {
-    margin-right: 0.2em;
-}
-
-#lucky {
+.submit {
     margin-left: 0.2em;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(245, 240, 240);
+    border: 0px;
+    outline: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(112, 111, 111);
 }
+
+.searchbar:hover {
+    box-shadow: 1px 1px 1px 1px;
+    color: rgb(212, 211, 211);
+    
+}
+
+.submit:hover {
+    outline: 1px solid rgb(175, 174, 174);
+    cursor: pointer;
+}
+
+/* footer */
 
 .footer {
     position: fixed;
     bottom: 0px;
     left: 0px;
     width: 100%;
-    padding-bottom: 3px;
-    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     background-color: rgba(155, 145, 145, 0.185);
+    font-size: 16px;
 }
 
 .leftfooter {
@@ -71,20 +116,30 @@ img {
     float: right;
 }
 
+.leftfooter:hover {
+    text-decoration: underline;
+}
+
+.rightfooter:hover {
+    text-decoration: underline;
+}
+
 #Advertising {
-    margin-right: 10px;
-    margin-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #Business {
-    margin-right: 10px;
+    padding-right: 20px;
 }
 
 #Settings {
-    margin-right: 10px;
-    margin-left: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 #Terms {
-    margin-left: 10px;
+    padding-left: 20px;
 }
+
+/* footer end */
